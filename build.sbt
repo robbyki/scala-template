@@ -142,7 +142,7 @@ lazy val root = project
     testSettings,
     libraryDependencies ++= mainDeps
   )
-  // .enablePlugins(GitVersioning)
+  .enablePlugins(GitVersioning)
   .enablePlugins(DockerPlugin)
   .enablePlugins(BuildInfoPlugin)
   .enablePlugins(JavaAppPackaging)
