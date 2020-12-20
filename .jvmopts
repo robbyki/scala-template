@@ -1,0 +1,7 @@
+-Dfile.encoding=UTF-8
+-XX:+CMSClassUnloadingEnabled
+-XX:+TieredCompilation
+-XX:ReservedCodeCacheSize=512m
+-Xms512m
+-Xmx2048m
+-Xss4m

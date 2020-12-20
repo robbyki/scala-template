@@ -1,0 +1,34 @@
+# add local overrides here for development & testing
+
+include "reference.conf"
+
+db = [
+   {
+     type = "db-2",
+     name = "",
+     host = "",
+     port = "",
+     username = "",
+     password = "",
+     ssl = false
+   },
+   {
+     type = "db-2",
+     name = "",
+     host = "",
+     port = "",
+     username = "",
+     password = "",
+     ssl = false
+   }
+]
+
+objectstorage = [ 
+  {
+    type = "cos",
+    apikey = ""
+  }
+
+]
+
+
