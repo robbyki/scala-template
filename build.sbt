@@ -16,9 +16,9 @@ maintainer := "robby k <robbmk@gmail.com>"
 inThisBuild(
   List(
     name              := projectName,
-    organization      := "com.ncc1701d",
+    organization      := "com.myproject",
     startYear         := Some(2020),
-    scalaVersion      := "2.12.12",
+    scalaVersion      := "2.13.2",
     homepage          := Some(url(s"https://github.com/robbyki/${name.value}")),
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision,
